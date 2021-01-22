@@ -1,7 +1,16 @@
 {
+    "Question1":{
     "question_title": "Title of Question",
     "category": "Networking (for example",
     "points": 10,
     "hints": ["hint1", "hint2"],
     "files/links": ["file1.jpg", "file2.txt", "http://something.example"]
+    },
+    "Question2":{
+    "question_title": "Title of Question",
+    "category": "Networking (for example",
+    "points": 10,
+    "hints": ["hint1", "hint2"],
+    "files/links": ["file1.jpg", "file2.txt", "http://something.example"]  
+    }
 }
