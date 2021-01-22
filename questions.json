@@ -3,6 +3,7 @@
     "question_title": "Title of Question",
     "category": "Networking (for example",
     "points": 10,
+    "answer": "answer to the question",
     "hints": ["hint1", "hint2"],
     "files/links": ["file1.jpg", "file2.txt", "http://something.example"]
     },
@@ -10,7 +11,8 @@
     "question_title": "Title of Question",
     "category": "Networking (for example",
     "points": 10,
+    "answer": "answer to the question",
     "hints": ["hint1", "hint2"],
-    "files/links": ["file1.jpg", "file2.txt", "http://something.example"]  
+    "files/links": ["file1.jpg", "file2.txt", "http://something.example"]
     }
 }
