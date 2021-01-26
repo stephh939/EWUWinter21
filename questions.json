@@ -1,18 +1,20 @@
 {
     "Question1":{
     "question_title": "Title of Question",
+    "question/prompt": "What is CTF?",
     "category": "Networking (for example",
     "points": 10,
-    "answer": "answer to the question",
+    "flag": "answer to the question",
     "hints": ["hint1", "hint2"],
     "files/links": ["file1.jpg", "file2.txt", "http://something.example"]
     },
     "Question2":{
-    "question_title": "Title of Question",
-    "category": "Networking (for example",
+    "question_title": "I Solemnly Swear That I Am Up To No Good",
+    "question/prompt": "Find the hidden message within the attached image. The decryption password is winter2021ctf.",
+    "category": "Encryption/Decryption",
     "points": 10,
-    "answer": "answer to the question",
-    "hints": ["hint1", "hint2"],
-    "files/links": ["file1.jpg", "file2.txt", "http://something.example"]
+    "flag": "mischief managed",
+    "hints": ["steganography", "https://www.pelock.com/products/steganography-online-codec"],
+    "files/links": ["question2.png"]
     }
 }
