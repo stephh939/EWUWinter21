@@ -1,20 +1,56 @@
 {
     "Question1":{
-    "question_title": "Title of Question",
-    "question/prompt": "What is CTF?",
-    "category": "Networking (for example",
-    "points": 10,
-    "flag": "answer to the question",
-    "hints": ["hint1", "hint2"],
-    "files/links": ["file1.jpg", "file2.txt", "http://something.example"]
+        "question_title": "Title of Question",
+        "question/prompt": "What is CTF?",
+        "category": "Networking (for example",
+        "points": 10,
+        "flag": "answer to the question",
+        "hints": ["hint1", "hint2"],
+        "files/links": ["file1.jpg", "file2.txt", "http://something.example"]
     },
     "Question2":{
-    "question_title": "I Solemnly Swear That I Am Up To No Good",
-    "question/prompt": "Find the hidden message within the attached image. The decryption password is winter2021ctf.",
-    "category": "Encryption/Decryption",
-    "points": 10,
-    "flag": "mischief managed",
-    "hints": ["steganography", "https://www.pelock.com/products/steganography-online-codec"],
-    "files/links": ["question2.png"]
+        "question_title": "I Solemnly Swear That I Am Up To No Good",
+        "question/prompt": "Find the hidden message within the attached image. The decryption password is winter2021ctf.",
+        "category": "Encryption/Decryption",
+        "points": 10,
+        "flag": "mischief managed",
+        "hints": ["steganography", "https://www.pelock.com/products/steganography-online-codec"],
+        "files/links": ["question2.png"]
+    },
+    "Question3":{
+        "question_title": "CATastrophe",
+        "question/prompt": "What Linux command would you use to get the output of the file 'ctfstuff'?",
+        "category": "Linux Fundamentals",
+        "points": 10,
+        "flag": "cat ctfstuff",
+        "hints": ["format is {command} {filename}"],
+        "files/links": []
+    },
+    "Question4":{
+        "question_title": "SuperCHMODel",
+        "question/prompt": "Which 3-digit value will allow the following permissions on a file:\n-The file can be executed and written to by the user that owns the file\n-The file can be read by the group that owns the file\n-The file can be executed by everyone else",
+        "category": "Linux Fundamentals",
+        "points": 30,
+        "flag": "341",
+        "hints": ["1-7 for each digit"],
+        "files/links": []
+    },
+    "Question5":{
+        "question_title": "Operators Fun",
+        "question/prompt": "What one Linux command would you use to append the word 'hello' to the file 'world'?",
+        "category": "Linux Fundamentals",
+        "points": 20,
+        "flag": "echo hello >> world",
+        "hints": ["output redirection operator", "echo"],
+        "files/links": []
+    },
+    "Question6":{
+        "question_title": "Let Me Check My Files",
+        "question/prompt": "Where is user information stored within the linux file system? Flag format: /answer/answer",
+        "category": "Linux Fundamentals",
+        "points": 10,
+        "flag": "/etc/passwd",
+        "hints": ["often used to see all the users on a system", "etc"],
+        "files/links": []
     }
 }
