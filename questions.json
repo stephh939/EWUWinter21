@@ -52,5 +52,25 @@
         "flag": "/etc/passwd",
         "hints": ["often used to see all the users on a system", "etc"],
         "files/links": []
+    },
+    "Question7":{
+        "question_title": "MALwarePRACTICE",
+        "question/prompt": "Use the attached files to answer the question. What type of malware was the victim infected with?",
+        "category": "Wireshark",
+        "points": 30,
+        "flag": "Ursnif",
+        "hints": ["look at the alerts", "kind of sounds like the sea witch from Little Mermaid"],
+        "files/links": ["question7"]
+    },
+    "Question8":{
+        "question_title": "MALwarePRACTICE-2",
+        "question/prompt": "Use the attached files to answer the question. What is the Windows user account name of the victim on the infected Windows host?",
+        "category": "Wireshark",
+        "points": 200,
+        "flag": "momia.juanita",
+        "hints": ["kerberos", "CNameString"],
+        "files/links": ["question7"],
+        "answer_files": ["question8"]
     }
+
 }

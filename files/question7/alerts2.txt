@@ -1,0 +1,89 @@
+------------------------------------------------------------------------
+Count:1 Event#3.1237 2019-12-03 22:44 UTC
+ET POLICY Reserved Internal IP Traffic
+10.18.20.97 -> 10.18.20.8
+IPVer=4 hlen=5 tos=0 dlen=52 ID=238 flags=2 offset=0 ttl=128 chksum=48457
+Protocol: 6 sport=49185 -> dport=389
+
+Seq=1870781904 Ack=0 Off=8 Res=0 Flags=******S* Win=8192 urp=907 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.1238 2019-12-03 22:44 UTC
+ET POLICY Reserved Internal IP Traffic
+10.18.20.8 -> 10.18.20.97
+IPVer=4 hlen=5 tos=0 dlen=52 ID=1133 flags=2 offset=0 ttl=128 chksum=47562
+Protocol: 6 sport=389 -> dport=49185
+
+Seq=1257159152 Ack=1870781905 Off=8 Res=0 Flags=***A**S* Win=8192 urp=65178 chksum=0
+------------------------------------------------------------------------
+Count:2 Event#3.1239 2019-12-03 22:44 UTC
+GPL RPC kerberos principal name overflow TCP
+10.18.20.97 -> 10.18.20.8
+IPVer=4 hlen=5 tos=0 dlen=282 ID=255 flags=2 offset=0 ttl=128 chksum=48210
+Protocol: 6 sport=49187 -> dport=88
+
+Seq=949053728 Ack=2388558202 Off=5 Res=0 Flags=***AP*** Win=256 urp=55377 chksum=0
+------------------------------------------------------------------------
+Count:5 Event#3.1241 2019-12-03 22:45 UTC
+ET DNS Standard query response, Name Error
+10.18.20.8 -> 10.18.20.97
+IPVer=4 hlen=5 tos=0 dlen=187 ID=1260 flags=2 offset=0 ttl=128 chksum=47289
+Protocol: 17 sport=53 -> dport=59102
+
+len=167 chksum=7016
+------------------------------------------------------------------------
+Count:6 Event#3.1246 2019-12-03 22:47 UTC
+ET POLICY Lets Encrypt Free SSL Cert Observed
+35.190.72.161 -> 10.18.20.97
+IPVer=4 hlen=5 tos=0 dlen=1410 ID=0 flags=0 offset=0 ttl=0 chksum=10917
+Protocol: 6 sport=443 -> dport=49354
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=25500 chksum=0
+------------------------------------------------------------------------
+Count:6 Event#3.1252 2019-12-03 22:47 UTC
+ET POLICY Lets Encrypt Free SSL Cert Observed
+35.190.36.172 -> 10.18.20.97
+IPVer=4 hlen=5 tos=0 dlen=1410 ID=0 flags=0 offset=0 ttl=0 chksum=20122
+Protocol: 6 sport=443 -> dport=49364
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=59693 chksum=0
+------------------------------------------------------------------------
+Count:4 Event#3.1256 2019-12-03 22:48 UTC
+ET POLICY Lets Encrypt Free SSL Cert Observed
+134.209.129.254 -> 10.18.20.97
+IPVer=4 hlen=5 tos=0 dlen=1410 ID=0 flags=0 offset=0 ttl=0 chksum=36404
+Protocol: 6 sport=443 -> dport=49561
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=6338 chksum=0
+------------------------------------------------------------------------
+Count:14 Event#3.1260 2019-12-03 22:50 UTC
+ETPRO TROJAN Ursnif Variant CnC Beacon 12 M1
+10.18.20.97 -> 8.208.24.139
+IPVer=4 hlen=5 tos=0 dlen=608 ID=0 flags=0 offset=0 ttl=0 chksum=30923
+Protocol: 6 sport=49593 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=42915 chksum=0
+------------------------------------------------------------------------
+Count:15 Event#3.1261 2019-12-03 22:50 UTC
+ETPRO TROJAN Ursnif Variant CnC Beacon 12 M2
+10.18.20.97 -> 8.208.24.139
+IPVer=4 hlen=5 tos=0 dlen=608 ID=0 flags=0 offset=0 ttl=0 chksum=30923
+Protocol: 6 sport=49593 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=42915 chksum=0
+------------------------------------------------------------------------
+Count:4 Event#3.1266 2019-12-03 22:50 UTC
+ET POLICY External IP Lookup Domain (myip.opendns .com in DNS lookup)
+10.18.20.97 -> 208.67.222.222
+IPVer=4 hlen=5 tos=0 dlen=62 ID=8205 flags=0 offset=0 ttl=128 chksum=19725
+Protocol: 17 sport=50085 -> dport=53
+
+len=42 chksum=645
+------------------------------------------------------------------------
+Count:1 Event#3.1280 2019-12-03 22:51 UTC
+SURICATA HTTP unable to match response to request
+8.208.24.139 -> 10.18.20.97
+IPVer=4 hlen=5 tos=0 dlen=252 ID=0 flags=0 offset=0 ttl=0 chksum=31279
+Protocol: 6 sport=80 -> dport=49597
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=24581 chksum=0
+
