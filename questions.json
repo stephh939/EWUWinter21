@@ -70,15 +70,34 @@
         "files/links": ["question7"]
     },
     "Question8":{
-        "beenEnteredInWinterCTF": "no",
-        "question_title": "MALwarePRACTICE-2",
-        "question/prompt": "Use the attached files to answer the question. What is the Windows user account name of the victim on the infected Windows host?",
-        "category": "Wireshark",
-        "points": 200,
-        "flag": "momia.juanita",
-        "hints": ["kerberos", "CNameString"],
-        "files/links": ["question7"],
-        "answer_files": ["question8"]
+        "beenEnteredInWinterCTF": "yes",
+        "question_title": "CIA",
+        "question/prompt": "What are the three components of the CIA?",
+        "category": "Cybersecurity Basics",
+        "points": 10,
+        "flag": "confidentiality, integrity, availability",
+        "hints": ["not talking about the Central Intelligence Agency", "triad"],
+        "files/links": []
+    },
+    "Question9":{
+        "beenEnteredInWinterCTF": "yes",
+        "question_title": "MAC",
+        "question/prompt": "What layer do MAC addresses operate on?",
+        "category": "Networking",
+        "points": 10,
+        "flag": "data link layer",
+        "hints": ["OSI layers"],
+        "files/links": []
+    },
+    "Question10":{
+        "beenEnteredInWinterCTF": "yes",
+        "question_title": "Sneaky Sneaky",
+        "question/prompt": "What utility can an attacker use to scan a network in stealth mode?",
+        "category": "Networking",
+        "points": 20,
+        "flag": "nmap",
+        "hints": [],
+        "files/links": []
     }
 
 }
