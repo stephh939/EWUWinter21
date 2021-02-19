@@ -1,5 +1,6 @@
 {
     "Question1":{
+        "beenEnteredInWinterCTF": "put yes here once this question has been entered into the CTF, otherwise no",
         "question_title": "Title of Question",
         "question/prompt": "What is CTF?",
         "category": "Networking (for example",
@@ -9,6 +10,7 @@
         "files/links": ["file1.jpg", "file2.txt", "http://something.example"]
     },
     "Question2":{
+        "beenEnteredInWinterCTF": "yes",
         "question_title": "I Solemnly Swear That I Am Up To No Good",
         "question/prompt": "Find the hidden message within the attached image. The decryption password is winter2021ctf.",
         "category": "Encryption/Decryption",
@@ -18,6 +20,7 @@
         "files/links": ["question2.png"]
     },
     "Question3":{
+        "beenEnteredInWinterCTF": "yes",
         "question_title": "CATastrophe",
         "question/prompt": "What Linux command would you use to get the output of the file 'ctfstuff'?",
         "category": "Linux Fundamentals",
@@ -27,6 +30,7 @@
         "files/links": []
     },
     "Question4":{
+        "beenEnteredInWinterCTF": "yes",
         "question_title": "SuperCHMODel",
         "question/prompt": "Which 3-digit value will allow the following permissions on a file:\n-The file can be executed and written to by the user that owns the file\n-The file can be read by the group that owns the file\n-The file can be executed by everyone else",
         "category": "Linux Fundamentals",
@@ -36,6 +40,7 @@
         "files/links": []
     },
     "Question5":{
+        "beenEnteredInWinterCTF": "yes",
         "question_title": "Operators Fun",
         "question/prompt": "What one Linux command would you use to append the word 'hello' to the file 'world'?",
         "category": "Linux Fundamentals",
@@ -45,6 +50,7 @@
         "files/links": []
     },
     "Question6":{
+        "beenEnteredInWinterCTF": "yes",
         "question_title": "Let Me Check My Files",
         "question/prompt": "Where is user information stored within the linux file system? Flag format: /answer/answer",
         "category": "Linux Fundamentals",
@@ -54,6 +60,7 @@
         "files/links": []
     },
     "Question7":{
+        "beenEnteredInWinterCTF": "no",
         "question_title": "MALwarePRACTICE",
         "question/prompt": "Use the attached files to answer the question. What type of malware was the victim infected with?",
         "category": "Wireshark",
@@ -63,6 +70,7 @@
         "files/links": ["question7"]
     },
     "Question8":{
+        "beenEnteredInWinterCTF": "no",
         "question_title": "MALwarePRACTICE-2",
         "question/prompt": "Use the attached files to answer the question. What is the Windows user account name of the victim on the infected Windows host?",
         "category": "Wireshark",
